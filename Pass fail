@@ -1,0 +1,14 @@
+''' Pass or Fail '''
+Sno=int(input('enter student no:'))
+Snake=input('enter student name:')
+Sgroup=input('enter student group')
+S1=input('maths marks:')
+S2=input('chem marks:')
+S3=input('comp marks:')
+S4=input('eng marks:')
+S5=input('telugu marks:')
+S6=input('AS marks:')
+if S1>30 and S2>30 and S3>30 and S4>40 and S5>40 and S6>30:
+   print('pass')
+else:
+   print('fail')
